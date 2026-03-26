@@ -1,4 +1,4 @@
-domLoaded()
+window.addEventListener("DOMContentLoaded",domLoaded());
 
 function domLoaded(){
     document.getElementById("taskBtn").addEventListener("click",addBtnClick);
